@@ -1,61 +1,102 @@
-# Portfolio V2 — MERN Stack
+# 🚀 Portfolio V2 — MERN Developer Portfolio
 
-A full-stack portfolio with admin dashboard, built with React + Vite (frontend) and Node.js + Express + MongoDB (backend).
+A modern full-stack developer portfolio built with the MERN stack featuring a responsive UI, dynamic project management system, and admin dashboard.
 
-## Project Structure
+---
 
-```
-portfolio-v2/
-├── client/          # Vite + React frontend
-└── server/          # Node.js + Express backend
-```
+## 🌐 Live Demo
 
-## Quick Start
+🔗 Live Website: https://future-fs-01-tan-chi.vercel.app/
 
-### 1. Configure environment variables
+🔗 GitHub Repository: https://github.com/Mr-Zenn/FUTURE_FS_01
 
-**server/.env**
-```
-PORT=5000
-MONGO_URI=your_mongodb_atlas_uri
-JWT_SECRET=your_secret_key
-```
+---
 
-**client/.env**
-```
-VITE_API_URL=http://localhost:5000/api
-```
+## ✨ Features
 
-### 2. Run the backend
+- Modern responsive UI
+- MERN stack architecture
+- Admin dashboard
+- Dynamic project management
+- Frontend / Full Stack filtering
+- MongoDB integration
+- Authentication system
+- GitHub & Live project links
+- Dark futuristic theme
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- React Router
+- CSS3
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- JWT Authentication
+
+### Deployment
+- Vercel
+- Render
+
+---
+
+## 📸 Screenshot
+
+![Portfolio Screenshot](./screenshot.png)
+
+---
+
+## 📂 Project Structure
+
 ```bash
-cd server
-npm run dev
+portfolio-v2/
+├── client/      # Frontend
+├── server/      # Backend
+└── README.md
 ```
 
-### 3. Run the frontend
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Mr-Zenn/FUTURE_FS_01.git
+cd FUTURE_FS_01
+```
+
+### Frontend Setup
+
 ```bash
 cd client
+npm install
 npm run dev
 ```
 
-### 4. Seed the database (optional)
+### Backend Setup
+
 ```bash
 cd server
-npm run seed
+npm install
+npm run dev
 ```
-Creates 1 admin user (`admin@portfolio.com` / `admin123`) and 2 sample projects.
 
-## API Routes
+---
 
-| Method | Route | Auth |
-|--------|-------|------|
-| POST | /api/auth/login | — |
-| GET | /api/projects | — |
-| POST | /api/projects | Admin |
-| PUT | /api/projects/:id | Admin |
-| DELETE | /api/projects/:id | Admin |
-| POST | /api/messages | — |
-| GET | /api/messages | Admin |
+## 👨‍💻 Developer
 
-## Admin Access
-Navigate to `/admin/login` in the browser after seeding.
+### Jay Prakash
+
+- GitHub: https://github.com/Mr-Zenn
+- LinkedIn: https://www.linkedin.com/in/jayprakash-sahu-06b501290
+
+---
+
+⭐ If you liked this project, consider giving it a star on GitHub!
